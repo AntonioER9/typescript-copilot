@@ -26,9 +26,9 @@ describe('checkPassword test suite', () => {
         assert.throws(() => checkPassword('Abcdefgh1'), Error('Password must contain at least one special character'))
     });
 
-    // test('should throw error if the password contains the ! character', ()=>{
-    //     assert.throws(() => checkPassword('Abcdefgh1!'), Error('Password must contain at least one special character'))
-    // })
+    test('should throw error if the password contains the ! character', ()=>{
+        assert.throws(() => checkPassword('Abcdefgh1!'), Error('Password must contain at least one special character'))
+    })
 
     test('should not throw an error if the password meets all the criteria', () => {
         assert.doesNotThrow(() => checkPassword('Abcdefgh1?'))
