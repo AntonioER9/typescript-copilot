@@ -1,0 +1,13 @@
+{
+  "name": "typescript-copilot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PasswordChecker.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Antonio Espinoza",
+  "license": "ISC"
+}
